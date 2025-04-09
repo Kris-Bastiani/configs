@@ -1,0 +1,12 @@
+{
+  "author": "Kris Bastiani",
+  "description": "A collection of personal configuration files",
+  "keywords": [
+    "eslint",
+    "stylelint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@kris-bastiani/configs",
+  "version": "1.0.0"
+}
