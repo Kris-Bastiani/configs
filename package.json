@@ -1,7 +1,6 @@
 {
   "author": "Kris Bastiani",
-  "description": "A collection of personal configuration files",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.29.1",
     "@typescript-eslint/parser": "^8.29.1",
     "eslint": "^8.57.0",
@@ -16,6 +15,7 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
     "stylelint-high-performance-animation": "^1.11.0"
   },
+  "description": "A collection of personal configuration files",
   "exports": {
     "./eslint": "./eslint/index.js",
     "./eslint/ts": "./eslint/ts.js",
