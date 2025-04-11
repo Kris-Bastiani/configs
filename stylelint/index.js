@@ -1,5 +1,3 @@
-/** @type {import('stylelint').Config} */
-
-export default {
+module.exports = {
 	extends: ['stylelint-config-standard', './common.js'],
 };

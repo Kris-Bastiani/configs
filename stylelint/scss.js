@@ -1,8 +1,6 @@
-/** @type {import('stylelint').Config} */
+const { REGEX_BEM } = require('./constants');
 
-import { REGEX_BEM } from './constants';
-
-export default {
+module.exports = {
 	extends: ['stylelint-config-standard-scss', './common.js'],
 	rules: {
 		'scss/at-mixin-pattern': [
