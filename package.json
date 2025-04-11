@@ -31,5 +31,6 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@kris-bastiani/configs",
+  "type": "module",
   "version": "1.0.0"
 }

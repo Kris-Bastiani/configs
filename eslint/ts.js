@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	extends: [
 		'plugin:@typescript-eslint/recommended',
 		'airbnb-base',
