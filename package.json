@@ -2,6 +2,14 @@
   "author": "Kris Bastiani",
   "description": "A collection of personal configuration files",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-jsconfig": "^1.1.0",
+    "eslint-import-resolver-typescript": "^4.3.2",
     "stylelint-config-recess-order": "^6.0.0",
     "stylelint-config-standard": "^38.0.0",
     "stylelint-config-standard-scss": "^14.0.0",
@@ -9,6 +17,10 @@
     "stylelint-high-performance-animation": "^1.11.0"
   },
   "exports": {
+    "./eslint": "./eslint/index.js",
+    "./eslint/ts": "./eslint/ts.js",
+    "./eslint/react": "./eslint/react.js",
+    "./eslint/react-ts": "./eslint/react-ts.js",
     "./stylelint": "./stylelint/index.js",
     "./stylelint/scss": "./stylelint/scss.js"
   },
