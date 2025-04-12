@@ -1,7 +1,7 @@
-export default {
-	extends: [
-		'airbnb-base',
-		'./common/settings.js',
-		'./common/rules.js',
-	],
-};
+import common from './common';
+import { airbnbBase } from './lib/airbnb';
+
+export default [
+	...airbnbBase,
+	common,
+];

@@ -1,8 +1,11 @@
-export default {
-	extends: [
-		'plugin:@typescript-eslint/recommended',
-		'airbnb',
-		'./common/settings-ts.js',
-		'./common/rules.js',
-	],
-};
+import tseslint from 'typescript-eslint';
+import common from './common';
+import { airbnb } from './lib/airbnb';
+
+export default [
+	...airbnb,
+	...tseslint.config(
+		tseslint.configs.recommended,
+		common,
+	),
+];
