@@ -1,6 +1,6 @@
 import tseslint from 'typescript-eslint';
-import common from './common';
-import { airbnb } from './lib/airbnb';
+import common from './common.js';
+import { airbnb } from './lib/airbnb.js';
 
 export default [
 	...airbnb,
