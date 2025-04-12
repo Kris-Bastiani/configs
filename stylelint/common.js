@@ -1,6 +1,6 @@
-const { REGEX_BEM, REGEX_BEM_ALLOWED_UNDERSCORE_PREFIX } = require('./constants');
+import { REGEX_BEM, REGEX_BEM_ALLOWED_UNDERSCORE_PREFIX } from './constants.js';
 
-module.exports = {
+export default {
 	extends: ['stylelint-config-recess-order'],
 	plugins: [
 		'stylelint-declaration-block-no-ignored-properties',
