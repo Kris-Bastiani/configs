@@ -19,6 +19,10 @@ export default {
 				message: 'Expected keyframes name to follow BEM conventions',
 			},
 		],
+		'no-descending-specificity': [
+			true,
+			{ ignore: ['selectors-within-list'] },
+		],
 		'selector-class-pattern': [
 			REGEX_BEM,
 			{
